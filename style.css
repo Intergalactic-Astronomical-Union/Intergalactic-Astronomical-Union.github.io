@@ -1,0 +1,26 @@
+/*  IGAU Css file
+    V1 - 24/01/2020
+*/
+
+.container-fluid {
+  max-width: 1280px;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+body.igau {
+  background: #1a1a1a url("https://raw.githubusercontent.com/Elite-IGAU/elite-igau.github.io/master/background.webp") top center no-repeat fixed;
+  color: #D5D4D4;
+  background-size: cover;
+}
+
+.main-area {
+  background: #161616;
+  border: 1px solid #C92202;
+}
+
+img.navbar-brand { max-height: 40px; width: auto; }
