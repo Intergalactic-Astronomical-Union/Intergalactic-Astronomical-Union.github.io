@@ -1,5 +1,5 @@
 /*  IGAU Css file
-    V1 - 24/01/2020
+    V1.1 - 25/01/2020
 */
 
 .container-fluid {
@@ -24,3 +24,53 @@ body.igau {
 }
 
 img.navbar-brand { max-height: 40px; width: auto; }
+
+/*
+Multi-dropdown CSS
+*/
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  vertical-align: 0;
+  border-top: .3em solid transparent;
+  border-right: 0;
+  border-bottom: .3em solid transparent;
+  border-left: .3em solid;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.dropdown-submenu>.dropdown-menu .dropdown-item {
+  padding-left: 3rem;
+}
+
+/*
+END Multi-dropdown CSS
+*/
+
+@media (min-width: 768px) {
+
+  /*
+  Mobile: Multi-dropdown CSS
+  */
+
+  .dropdown-menu {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-submenu>.dropdown-menu .dropdown-item {
+    padding-left: 1.5rem;
+  }
+
+  /*
+  END Mobile: Multi-dropdown CSS
+  */
+
+}
