@@ -25,6 +25,11 @@ body.igau {
 
 img.navbar-brand { max-height: 40px; width: auto; }
 
+/* add some spacing under each list item to make it a little more obvious when each item begins/ends */
+.list-unstyled li {
+	margin-bottom: 10px;
+}
+
 /*
 Multi-dropdown CSS
 */
