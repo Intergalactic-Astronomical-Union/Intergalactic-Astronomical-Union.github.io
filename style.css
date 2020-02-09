@@ -1,5 +1,5 @@
 /*  IGAU Css file
-    V1.2 - 25/01/2020
+    V1.2.1 - 09/02/2020
 */
 
 .container-fluid {
@@ -21,6 +21,7 @@ body.igau {
 .main-area {
   background: #161616;
   border: 1px solid #C92202;
+  padding-bottom: 1rem;
 }
 
 img.navbar-brand { max-height: 40px; width: auto; }
